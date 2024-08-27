@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZBC_OO_ALV</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>OO-ALV Superklasse</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>S</RSTAT>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY_ALV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausgabe des ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HANDLE_DOUBLE_CLICK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Double Klickfunktion (Sollte redefiniert werden!)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HANDLE_HOTSPOT_CLICK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hotspot Klickfunktion (Sollte redefiniert werden!)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_OUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Basisklasse für einfache Tabellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Layout Schlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_ALV_COLUMNS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV-Spalten anpassen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_ALV_LAYOUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV-Layout übernehmen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DISPLAY_SETTINGS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV-Einstellungen setzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SHOW_OO_ALV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>OO-ALV anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ALV_COLUMNS</CMPNAME>
+     <SCONAME>IT_COLUMN</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Spaltenbeschriftung für Spalten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ALV_LAYOUT</CMPNAME>
+     <SCONAME>IV_VARI</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Layout</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_OO_ALV</CMPNAME>
+     <SCONAME>IV_TITLE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Inhalt der Titelzeile des aktuellen Dynpros</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_OO_ALV</CMPNAME>
+     <SCONAME>IV_VARI</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Layout</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
